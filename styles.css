@@ -27,11 +27,6 @@ a {
   text-decoration: none;
   color: linen;
 }
-
-/*Now I am ready to start putting together the grid layout. CSS Grid offers a two-dimensional grid-based layout, allowing me to center items horizontally and vertically while still retaining control to do things like overlap elements.
-
-I've began by creating a main selector and giving it a display property set to grid.*/
-
 main {
   display: grid;
 }
