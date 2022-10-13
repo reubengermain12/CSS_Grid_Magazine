@@ -35,6 +35,15 @@ main {
     );
   row-gap: 3rem;
 }
+
+/*I created an img selector and gave it a width property set to 100%, and an object-fit property set to cover.
+
+The object-fit property tells the browser how to position the element within its container. In this case, cover will set the image to fill the container, cropping as needed to avoid changing the aspect ratio.*/
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
 .heading {
   grid-column: 2/3;
   display: grid;
