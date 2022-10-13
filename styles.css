@@ -45,11 +45,6 @@ img {
   grid-template-columns: repeat(2, 1fr);
   row-gap: 1.5rem;
 }
-
-/*Magazines often use justified text in their printed content to structure their layout and control the flow of their content. While this works in printed form, justified text on websites can be an accessibility concern, for example presenting challenges for folks with dyslexia.
-
-To make my project look like a printed magazine, I'll give the .text selector a text-align property set to justify.*/
-
 .text {
   grid-column: 2/3;
   font-size: 1.8rem;
