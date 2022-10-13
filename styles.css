@@ -72,11 +72,6 @@ img {
 .publish-date {
   color: rgba(255, 255, 255, 0.5);
 }
-
-/*Now the auto-placement algorithm will kick in when I add a new icon element. However, the algorithm defaults the new column width to be auto, which will not match my current columns.
-
-I can override this with the grid-auto-columns property. I'll give the .social-icons selector a grid-auto-columns property set to 1fr.*/
-
 .social-icons {
   display: grid;
   font-size: 3rem;
