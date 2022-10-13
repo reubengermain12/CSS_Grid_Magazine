@@ -84,9 +84,6 @@ img {
   grid-auto-columns: 1fr;
   align-items: center;
 }
-
-/*The other text has been shifted out of place. So i've moved it into position by giving the .first-paragraph::first-letter selector a float property set to left and a margin-right property set to 1rem.*/
-
 .first-paragraph::first-letter {
   font-size: 6rem;
   color: orangered;
