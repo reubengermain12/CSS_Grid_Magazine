@@ -84,3 +84,12 @@ img {
   grid-auto-columns: 1fr;
   align-items: center;
 }
+
+/*The ::first-letter pseudo-selector allows me to target the first letter in the text content of an element.
+
+I created a .first-paragraph::first-letter selector and set the font-size property to 6rem. I've also given it a color property set to orangered to make it stand out.*/
+
+.first-paragraph::first-letter {
+  font-size: 6rem;
+  color: orangered;
+}
