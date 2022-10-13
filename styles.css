@@ -39,11 +39,6 @@ main {
   grid-column: 2/3;
   display: grid;
 }
-
-/*For additional control over the layout of your content, I can have a CSS Grid within a CSS Grid.
-
-I've set the display property of the .heading selector to grid.*/
-
 .text {
   grid-column: 2/3;
 }
