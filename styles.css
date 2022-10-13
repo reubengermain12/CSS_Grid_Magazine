@@ -72,3 +72,7 @@ img {
 .publish-date {
   color: rgba(255, 255, 255, 0.5);
 }
+.social-icons {
+  display: grid;
+  font-size: 3rem;
+}
